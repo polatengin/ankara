@@ -1,0 +1,38 @@
+{
+  "name": "ankara-cli",
+  "version": "0.0.1",
+  "description": "You can generate random codenames for many Azure Resources, eg. Azure AppService, Azure CloudApp, etc.",
+  "main": "./lib/cli.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "npm i -g && azcng",
+    "create": "npm run build && npm run test",
+    "refresh": "rm -rf ./node_modules ./package-lock.json && npm install"
+  },
+  "keywords": [
+    "cli",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Engin Polat",
+  "license": "MIT",
+  "bin": {
+    "azcng": "./lib/cli.js",
+    "ankara": "./lib/cli.js",
+    "azure-codename-generator": "./lib/cli.js"
+  },
+  "dependencies": {
+    "@azure/arm-appservice": "5.8.0",
+    "@azure/ms-rest-nodeauth": "2.0.2",
+    "chalk": "2.4.2",
+    "clear": "0.1.0",
+    "commander": "2.20.0",
+    "figlet": "1.2.3",
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "@types/figlet": "1.2.0",
+    "@types/node": "12.6.8",
+    "typescript": "3.5.3"
+  }
+}
