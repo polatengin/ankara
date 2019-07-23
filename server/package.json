@@ -1,0 +1,27 @@
+{
+  "name": "ankara",
+  "version": "0.0.1",
+  "description": "You can generate random codenames for many Azure Resources, eg. Azure AppService, Azure CloudApp, etc.",
+  "main": "./lib/server.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "prod": "npm run build && npm run start"
+  },
+  "keywords": [
+    "server",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Engin Polat",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.0",
+    "@types/node": "12.6.8",
+    "ts-node": "8.3.0",
+    "typescript": "3.5.3"
+  }
+}
