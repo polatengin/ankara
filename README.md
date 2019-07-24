@@ -10,7 +10,7 @@ I'm a long-time software developer. Ideas coming to my mind all the times.
 
 *Worst* part of starting a project is, finding a good project *code-name*, such as, *Blue Raven*, *Lavender Bison*, *Mercury Eagle* or *Sloth Prague*, etc.
 
-[Microsoft](https://microsoft.com) has a good list of *very-good-looking project* names, you can find the list on *Wikipedia* ([List of Microsoft codenames](https://en.wikipedia.org/wiki/List_of_Microsoft_codenames))
+[Microsoft](https://microsoft.com) has a good list of *very-good-looking* project names, you can find the list on *Wikipedia* ([List of Microsoft codenames](https://en.wikipedia.org/wiki/List_of_Microsoft_codenames))
 
 That's why I started this project.
 
